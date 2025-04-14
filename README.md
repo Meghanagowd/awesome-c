@@ -107,17 +107,24 @@ Libraries for use in compilers, interpreters, and low-level based projects.
 
 ## Compression ##
 
-* [libzip](https://libzip.org/) - A C library for reading, creating, and modifying zip archives. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [lzo](http://www.oberhumer.com/opensource/lzo/) - Very fast data compression library. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [zlib](http://zlib.net/) - Massively-spiffy yet delicately-unobtrusive compression library. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [bzip2](http://www.bzip.org/) - Patent free, high quality data compressor. [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [lz4](https://lz4.github.io/lz4/) - Fast Compression algorithm.
-* [snappy](https://github.com/google/snappy) - Fast compression library (implementation in C++, native bindings to C).
-* [zstd](http://facebook.github.io/zstd/) - Fast real-time compression algorithm [`3-clause BSD`](https://directory.fsf.org/wiki/License:BSD-3-Clause)
-* [brotli](https://github.com/google/brotli) - Generic lossless compression algorithm based on LZ77, Huffman coding and 2nd order context modelling [`MIT`](https://raw.githubusercontent.com/atom/atom/master/LICENSE.md)
-* [quicklz](http://www.quicklz.com/index.php) - Fast compression library. [`GNU GPL2.1`](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-* [pixz](https://github.com/vasi/pixz) - Pixz (pronounced pixie) is a parallel, indexing version of `xz`. [`2-clause BSD`](https://directory.fsf.org/wiki/License:BSD-2-Clause)
+- [brotli](https://github.com/google/brotli) - Generic lossless compression algorithm based on LZ77, Huffman coding, and 2nd order context modeling. MIT
+- [bzip2](https://sourceware.org/bzip2/) - Patent-free, high-quality data compressor. 3-clause BSD
+- [libzip](https://libzip.org/) - A C library for reading, creating, and modifying zip archives. 3-clause BSD
+- [lz4](https://github.com/lz4/lz4) - Fast compression algorithm. BSD
+- [lzo](http://www.oberhumer.com/opensource/lzo/) - Very fast data compression library. GNU GPL2.1
+- [pixz](https://github.com/vasi/pixz) - Pixz (pronounced pixie) is a parallel, indexing version of xz. 2-clause BSD
+- [quicklz](http://www.quicklz.com/) - Fast compression library. GNU GPL2.1
+- [snappy](https://github.com/google/snappy) - Fast compression library (implemented in C++, with native C bindings). Apache License 2.0
+- [zlib](https://zlib.net/) - Massively-spiffy yet delicately-unobtrusive compression library. 3-clause BSD
+- [zstd](https://github.com/facebook/zstd) - Fast real-time compression algorithm. 3-clause BSD
 
+
+
+
+
+
+
+ 
 ## Crypto ##
 
 * [GnuTLS](https://www.gnutls.org/) - Secure communication library, implementing SSL, TLS and DTLS. [`GNU LGPL2.1 or later`](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
